@@ -7,8 +7,11 @@ Bachelor thesis project, combining areas of IoT and multimedia
 From the thesis description:
 
 Abstract.
+
 This thesis focuses on the design and implementation of a personal system operated by a single user. The activated system, which is in a standby state and can be initiated by the user, enables recording of audio and video from the user’s surroundings using a personal smartwatch, personal smartphone, and an ESP32-CAM module. The system can record audio and video simultaneously and can be controlled using the aforementioned devices. The recorded data is transmitted in real-time and stored on an external server for later access.
+
 The designed system is compact, portable, and allows for discreet initiation that is unnoticed by people in the user’s vicinity. Special attention has also been given to energy efficiency. According to the measurements conducted, the system can withstand over 40 hours in standby mode without recharging or over 8 hours in active recording and audio transmission mode.
+
 To enhance the thesis and conduct better testing of the system, two additional alternative solutions for audio recording and transmission have been implemented. These solutions utilize different communication protocols: Bluetooth Classic and Socket.IO, aiming to compare the efficiency of the protocol used in the base solution, Bluetooth Low Energy. The Bluetooth Classic solution is competitive in terms of similar energy consumption compared to the base solution, with the significant advantage of enabling higher-quality audio transmission. On the other hand, the Socket.IO solution offers better audio quality but has considerably higher energy consumption, making it impractical.
 Finally, the system has also been analyzed from a legal perspective. Potential cases of system misuse in public settings and the possibilities of using the recorded data as evidence in legal proceedings has been considered.
 
